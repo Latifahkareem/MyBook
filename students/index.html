@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY BOOK UNIVERSITY OF HAIL</title>
+<meta charset="UTF-8">
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/app.js"></script>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Amita|Comfortaa|Poppins" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+</head>
+
+<body id="top">
+<div id="cv" class="FA1">
+  <div class="mainDetails">
+    <div id="headPic" class="FA2">
+      <div id="myPic"></div>
+    </div>
+    <div class="name">
+      <h2 class="FATwo">Student Control Panel</h2>
+      <h4 class="FAThree">COLLEGE OF COMPUTER SCIENCES AND ENGINEERING</h4>
+      <div class="clear"></div>
+      <ul>
+        <li> <a href="#" onClick="show_only_div('mainArea1');"> Home </a> </li>
+        <li> <a href="#" onClick="show_only_div('mainArea_a');"> About </a> </li>
+        <li> <a href="#" onClick="show_only_div('mainArea_b');"> Books </a> </li>
+        <li> <a href="#" onClick="show_only_div('mainArea_c');"> Add Book </a> </li>
+        <li> <a href="#" onClick="show_only_div('mainArea_d');"> Request Book </a> </li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <!--  -------------------------------------------------------------------------------------->
+
+  <div id="mainArea1" class="FA show_hide">
+    <div class="name">
+      <h2 class="FATwo"> WELCOME TO YOUR CONTROL PANEL <br>
+        IN MY BOOK UNIVERSITY OF HAIL </h2>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <!--  -------------------------------------------------------------------------------------->
+
+  <div id="mainArea_a" class="FA show_hide" style="display:none"> <br>
+    <div class="name">
+      <h4 class="FATwo"> The book is the most important and the best way to learn and develop people, especially students. So that can easily find information as quickly as possible for students.
+        Some students have problems with courses, so we created this page for students.</h4>
+    </div>
+    <div> <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div>
+        <p> Functional requirements for Student:</p>
+        <ol type="1">
+          <li> The system allows the student to be able to write and send a comment.</li>
+          <li> The system allows the student to download &upload the book.</li>
+          <li> The system allows the return the enquiry reply back to the student.</li>
+          <li> The student can request any book he wants.</li>
+          <li> The teacher & student can add books for students.</li>
+        </ol>
+      </div>
+      <br>
+      <div>
+        <h3>None-Functional Requirements:</h3>
+        <br>
+        <pre>
+1.  Performance Requirements
+Response time:
+System must response on any user request very fast about millisecond.
+</pre>
+        <br>
+        <pre>
+2.  Security Requirements are included in a system must ensure that:
+- Unauthorized access to the system.
+- Ensure the integrity of the system from accidental or malicious damage.
+- The access permissions for system data only be changed by the system’s data
+ administrator.
+</pre>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <!--  -------------------------------------------------------------------------------------->
+
+  <div id="mainArea_b" class="FA show_hide" style="display:none">
+    <section>
+      <div class="sectionTitle">
+        <h1>Latifah Kareem</h1>
+      </div>
+      <div class="sectionContent">
+        <div id="c1">
+
+        <p><a href="">I want book Java</a></p>
+        <p> Good morning,
+          I have difficulty understanding Java, Can you help me by attach any book for Java?</p>
+        <hr>
+        <p> <a href="#">Khansa Al-shammari </a> Hello, Latifah I'll help you, wait to 9:00 pm, I'll upload the book. </p>
+        <p> <a href="#">Eman Al-shammari </a> Hello, dears I have many books for Java,I'll upload <a href="books/JavaTheCompleteReference.pdf" target="_blank"> download</a> </p>
+        <p> <a href="#">Khansa Al-shammari </a> Good Evening, you can download this book <a href="books/java_tutorial.pdf" target="_blank"> download</a></p>
+        <p> <a href="#">Latifah Kareem</a> Thank you so much My friends </p>
+
+        </div>
+
+        <form class="bookForm" name="bookForm"  method="post" action="#">
+          <div  >
+            <textarea name="comment" class="comment" placeholder="Add Comment" id="txt1" rows="2"></textarea>
+            <input type="file" name="file_att">
+            <input type="button" name="submit" value="Send your comment" onClick="add_comment('c1','txt1');">
+          </div>
+        </form>
+      </div>
+      <div class="clear"> </div>
+    </section>
+    <section>
+      <div class="sectionTitle">
+        <h1>Fatima Ali</h1>
+      </div>
+      <div class="sectionContent">
+
+      <div id="c2">
+        <p><a href="">I Need Book for Math 102</a></p>
+        <p> Can anyone give me a book for Math 102?</p>
+        <hr>
+        <p> <a href="#">Latifah Kareem</a> Yes dear, you can download this book. <a href="books/math2.pdf" target="_blank"> download</a> </p>
+        <hr>
+        </div>
+        <form class="bookForm" name="bookForm"  method="post" action="#">
+          <div>
+            <textarea name="comment" class="comment" placeholder="Add Comment" id="txt2" rows="2"></textarea>
+            <input type="file" name="file_att">
+            <input type="button"   value="Send your comment" onClick="add_comment('c2','txt2');" >
+          </div>
+        </form>
+      </div>
+      <div class="clear"> </div>
+    </section>
+    <section>
+      <div class="sectionTitle">
+        <h1>Maram Waleed</h1>
+      </div>
+      <div class="sectionContent">
+      <div id="c3">
+        <p><a href="">Please students help me </a></p>
+        <p> I have research for the course MGT, please send me any book for MGT in my Email <a href="mailto:maram.w@gmail.com">maram.w@gmail.com </a></p>
+        <hr>
+        <p> <a href="#">Noura Ali </a> Hi Maram, I'm very happy to help you and I'll send you many books to your email. </p>
+        <p> <a href="#">Rana Muhammad</a> You can download this book. <a href="books/MGT.pdf" target="_blank"> download</a> </p>
+
+        </div>
+        <form class="bookForm" name="bookForm"  method="post" action="#">
+          <div  >
+            <textarea name="comment" class="comment" placeholder="Add Comment" id="txt3" rows="2"></textarea>
+            <input type="file" name="file_att">
+            <input type="button" name="submit" value="Send your comment" onClick="add_comment('c3','txt3');">
+          </div>
+        </form>
+      </div>
+      <div class="clear"> </div>
+    </section>
+    <div class="clear"></div>
+  </div>
+
+  <!--  -------------------------------------------------------------------------------------->
+
+  <div id="mainArea_c" class="FAFive show_hide" style="display:none">
+    <section>
+      <div class="sectionTitle">
+        <h1>Add Book form</h1>
+      </div>
+      <div class="sectionContent">
+        <div >
+
+        <div id="book_info">
+        </div>
+
+
+
+
+          <form class="bookForm" name="bookForm"  method="post" action="#">
+            <div >
+              <input type="text" name="name" id="book_name" class="name" placeholder="Book Name" value=" ">
+            </div>
+            <div>
+              <input type="file" name="file_att" id="file_att">
+            </div>
+            <br>
+            <div  >
+              <textarea name="message" id="message" placeholder="Description" rows="6"></textarea>
+            </div>
+            <div  >
+              <input type="button" name="submit" class="submit" onClick="add_book();" value="Add Book">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <div class="clear"></div>
+  </div>
+
+  <!--  -------------------------------------------------------------------------------------->
+
+  <div id="mainArea_d" class="FA  show_hide" style="display:none">
+    <section>
+      <div class="sectionTitle">
+        <h1>Request form</h1>
+      </div>
+      <div class="sectionContent">
+        <div >
+
+
+        <div id="book_req">
+        </div>
+
+
+          <form class="bookForm" name="bookForm"  method="post" action="#">
+            <div  >
+              <textarea name="message_r" id="message_r" placeholder="Message" rows="6"></textarea>
+            </div>
+            <div  >
+              <input type="button" name="submit" class="submit"  onClick="add_m();" value="Send Message">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <div class="clear"></div>
+  </div>
+  <!--  -------------------------------------------------------------------------------------->
+
+  <div class="clear"></div>
+</div>
+</body>
+</html>

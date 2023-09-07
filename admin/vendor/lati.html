@@ -1,0 +1,271 @@
+<html lang="en"><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><script>
+ function read_it(book_id)
+{
+
+
+		var url= 'ajax_actions.php?read_it=1&book_id='+book_id ;
+		$.ajax({url: url, success: function(result){
+			 var pdf_url = 'http://localhost/mybook/upfiles/'+result ;
+				  window.open(pdf_url);
+
+		}});
+
+
+}
+
+</script>
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>MY BOOK UNIVERSITY OF HAIL</title>
+
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom fonts for this template -->
+<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+
+<!-- Plugin CSS -->
+<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/creative.css" rel="stylesheet">
+</head>
+
+<body id="page-top"><div id="touchvpn_icon_container" class="disconnected" draggable="true" style="right: 1.17187500% !important; bottom: 2.43902439% !important;"><div id="touchvpn_status_icon" class="touchvpn_cz"><div class="touchvpn_icon_sign">Best choice for browsing</div></div><div id="touchvpn_icon_selector"><div class="touchvpn_country touchvpn_ca"><div class="touchvpn_icon_sign">Browse from Canada</div></div><div class="touchvpn_country touchvpn_se"><div class="touchvpn_icon_sign">Browse from Sweden</div></div><div class="touchvpn_country touchvpn_in"><div class="touchvpn_icon_sign">Browse from India</div></div><div class="touchvpn_country touchvpn_sg"><div class="touchvpn_icon_sign">Browse from Singapore</div></div></div></div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+  <div class="container"> <a class="navbar-brand js-scroll-trigger" href="#page-top">MY BOOK UNIVERSITY OF HAIL</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.php#h">Home</a> </li>
+                                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="myBooks.php"> My Books</a> </li>
+                            <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="redirectUser.php?action=logout">Logout</a> </li>
+                                                         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="admin/index.php"> Control Panel</a> </li>
+
+
+
+
+<li class="dropdown nav-item ">
+                        <a href="#" class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" title="Colleges">
+
+                            <b>Colleges</b>
+                        </a>
+
+                                <ul id="Colleges" class="dropdown-menu  ">
+
+
+                                                             <li>
+                                    <a class="nav-link js-scroll-trigger " href="Courses.php?college_id=1"><strong>College of Arts and Sciences</strong></a>
+                                </li>
+
+                                                                 <li>
+                                    <a class="nav-link js-scroll-trigger " href="Courses.php?college_id=2"><strong>College of Business Administration</strong></a>
+                                </li>
+
+                                                                 <li>
+                                    <a class="nav-link js-scroll-trigger " href="Courses.php?college_id=3"><strong>College of Computer Science and Engineering</strong></a>
+                                </li>
+
+                                                                 <li>
+                                    <a class="nav-link js-scroll-trigger " href="Courses.php?college_id=4"><strong>College of Education</strong></a>
+                                </li>
+
+                                                                 <li>
+                                    <a class="nav-link js-scroll-trigger " href="Courses.php?college_id=5"><strong>College of Science </strong></a>
+                                </li>
+
+
+                                </ul>
+
+                    </li>
+
+
+
+
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.php#portfolio">Courses</a> </li>
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.php#contact">Contact</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="bg-primary">
+  <div class="container">
+    <div class="row">
+
+
+
+
+
+
+
+     <div class="col-lg-4 mx-auto text-center bg-dark">
+
+        <img class="img-fluid" src="upfiles/MY99CAS330.jpg" width="90%" height="90%" alt="">
+        <br>
+
+        <p class="text-faded mb-4">(9632587)  <br> TIME Mindfulness. </p>
+        <p class="text-faded mb-4"> The Editors Of TIME. </p>
+        <p class="text-faded mb-4">By:Latifah kareem AlQuairi. </p>
+
+
+
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#" onclick="read_it(2)"><i class="fa fa-book fa-fw" aria-hidden="true"></i> Read It!</a>
+        </div>
+
+
+
+
+     <div class="col-lg-4 mx-auto text-center bg-dark">
+
+        <img class="img-fluid" src="upfiles/0JV2H12IWO.jpg" width="90%" height="90%" alt="">
+        <br>
+
+        <p class="text-faded mb-4">(212332)  <br> test book for teacher one. </p>
+        <p class="text-faded mb-4">doctor x . </p>
+        <p class="text-faded mb-4">By:Teacher one . </p>
+
+
+
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#" onclick="read_it(6)"><i class="fa fa-book fa-fw" aria-hidden="true"></i> Read It!</a>
+        </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading">Let's Get In Touch!</h2>
+        <hr class="my-4">
+        <p class="mb-5"> MY BOOK UNIVERSITY OF HAIL  <br>
+          COLLEGE OF COMPUTER SCIENCES AND ENGINEERING <br>
+          DEPARTMENT OF SOFTWARE ENGINEERING <br>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 ml-auto text-center"> <i class="fa fa-user-circle-o fa-3x mb-3 sr-contact" data-sr-id="2" style="; visibility: visible;  -webkit-transform: scale(0.3); opacity: 0;transform: scale(0.3); opacity: 0;"></i>
+        <p>Latifah kareem AlQuairi
+ - 201203899</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:ilatifah.kareem@gmail.com"> ilatifah.kareem@gmail.com</a></p>
+      </div>
+      <div class="col-lg-4 ml-auto text-center"> <i class="fa fa-user-circle-o fa-3x mb-3 sr-contact" data-sr-id="3" style="; visibility: visible;  -webkit-transform: scale(0.3); opacity: 0;transform: scale(0.3); opacity: 0;"></i>
+        <p>Khansa Ghazi Al-shammari - 201304478</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:Knssssal1122@hotmail.com"> Knssssal1122@hotmail.com</a></p>
+      </div>
+      <div class="col-lg-4 ml-auto text-center"> <i class="fa fa-user-circle-o fa-3x mb-3 sr-contact" data-sr-id="4" style="; visibility: visible;  -webkit-transform: scale(0.3); opacity: 0;transform: scale(0.3); opacity: 0;"></i>
+        <p></p><h3>Ms. Zahida Malik</h3><p></p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:z.malik@uoh.edu.sa"> z.malik@uoh.edu.sa</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-primary">
+  <div class="container">
+    <div class="row">
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=1">
+        Department of Accounting        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=2">
+        Economics and Finance        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=3">
+        Management information system         </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=4">
+        Department of Arabic Language        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=5">
+        Department of English Language        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=6">
+        Computer Engineering        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=7">
+        Software Engineering        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=8">
+        Computer Science          </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=9">
+        Department of Biology        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=10">
+        Department of Chemistry        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=11">
+        Department of Mathematics        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=12">
+        Department of Physics        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="Courses.php?course_id=13">
+        Islamic Culture        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+    </div>
+  </div>
+
+  </section>
+
+
+
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/creative.min.js"></script>
+</body></html>
